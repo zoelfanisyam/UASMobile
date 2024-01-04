@@ -1,0 +1,36 @@
+name: my_quran
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get: ^4.6.6
+  flutter_svg: ^2.0.9
+  http: ^1.1.2
+  google_fonts: ^6.1.0
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  scroll_to_index: ^3.0.1
+  flutter:
+    sdk: flutter
+  flutter_native_splash: ^2.3.9
+
+flutter_native_splash:
+  color: '#ffffff'
+  android: true
+  ios: true
+  android_12:
+    color: '#ffffff'
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/
+  uses-material-design: true
